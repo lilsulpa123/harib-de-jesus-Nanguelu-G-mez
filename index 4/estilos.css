@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@800&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(246, 240, 240);
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* Header */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #ffffd5;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(10, 154, 215);
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+header .navbar {
+    position: relative;
+    display: flex;
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: #1c2a7a;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover {
+    color: #ffffd5;
+}
+
+ /* contenido*/
+
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contenido .tituloBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.contenido .tituloBox h2 {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #587bed;
+    line-height: 1.2;
+}
+
+.contenido .tituloBox h2 span {
+    background: #abd0de;
+    color: #ffffd5;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.contenido .tituloBox p {
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: rgb(130, 136, 249);
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contenido .tituloBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(27, 58, 120);
+    background: rgb(106, 174, 211);
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.imgBox img {
+    border-radius: 50%;
+}
